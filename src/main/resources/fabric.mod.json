@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fastcrystals",
+  "version": "${version}",
+  "name": "Fast Crystals",
+  "description": "Removes the right-click delay while holding end crystals.",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": ["fastcrystals.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
